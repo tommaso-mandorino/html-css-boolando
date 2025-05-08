@@ -51,6 +51,13 @@ a {
     &.align-items-center {
         align-items: center;
     }
+    &.flex-wrap {
+        flex-wrap: wrap;
+    }
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
 }
 /* endregion Utility */
 
@@ -88,6 +95,38 @@ body {
     /* #region Main */
     main {
         background-color: var(--main-section-bg-color);
+        .products-section {
+            product-item {
+                .product-card {
+                    .product-image {
+
+                    }
+                    .product-like-button {
+    
+                    }
+                    .product.discount {
+    
+                    }
+                    .product-sustainability {
+    
+                    }
+                }
+                .product-information {
+                    .product-brand {
+
+                    }
+                    .product-title {
+
+                    }
+                    .product-price {
+
+                        &.product-price-discounted {
+
+                        }
+                    }
+                }
+            }
+        }
     }
     /* #endregion Main */
 
