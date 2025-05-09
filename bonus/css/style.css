@@ -242,6 +242,16 @@ body {
                 }
             }
         }
+        .product-details {
+            .product-image {
+                margin: 0 auto;
+                width: 25%;
+            }
+            .product-description {
+                margin-top: 1rem;
+                font-size: 1.25rem;
+            }
+        }
     }
     /* #endregion Main */
 
