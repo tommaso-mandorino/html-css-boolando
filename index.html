@@ -26,7 +26,7 @@
 <body class="">
 
     <!-- #region Header -->
-    <header>
+    <header class="position-fixed">
 
         <!-- Menu bar -->
         <nav id="main-menu" class="container d-flex align-items-center justify-content-between">
@@ -71,19 +71,26 @@
             <a class="product-item col-4" href="#">
 
                 <!-- Product card -->
-                <div class="product-card">
-                    <img class="product-image" src="./img/1.webp" alt="">
-                    <div class="product-like-button"></div>
-                    <div class="product-discount">-50%</div>
-                    <div class="product-sustainability">Sostenibilità</div>
+                <div class="product-card position-relative">
+                    <div class="product-images position-relative">
+                        <img class="product-image-primary" src="./img/1.webp" alt="Relaxed fit tee unisex 1">
+                        <img class="product-image-secondary position-absolute" src="./img/1b.webp"
+                            alt="Relaxed fit tee unisex 2">
+                    </div>
+                    <div class="product-favorite-button position-absolute">&hearts;</div>
+                    <div class="product-labels d-flex position-absolute">
+                        <div class="product-discount-percentage">-50%</div>
+                        <div class="product-sustainability">Sostenibilità</div>
+                    </div>
                 </div>
-
                 <!-- Product information -->
                 <div class="product-information">
                     <div class="product-brand">Levi's</div>
                     <div class="product-title">Relaxed fit tee unisex</div>
-                    <div class="product-price product-price-discounted">14,99 €</div>
-                    <div class="product-price">29,99 €</div>
+                    <div class="product-prices d-flex">
+                        <div class="product-price-primary">14,99 €</div>
+                        <div class="product-price-secondary text-decoration-line-through">29,99 €</div>
+                    </div>
                 </div>
 
             </a>
@@ -92,19 +99,25 @@
             <a class="product-item col-4" href="#">
 
                 <!-- Product card -->
-                <div class="product-card">
-                    <img class="product-image" src="./img/2.webp" alt="">
-                    <div class="product-like-button"></div>
-                    <div class="product-discount">-30%</div>
-                    <div class="product-sustainability"></div>
+                <div class="product-card position-relative">
+                    <div class="product-images position-relative">
+                        <img class="product-image-primary" src="./img/2.webp" alt="Roses tee 1">
+                        <img class="product-image-secondary position-absolute" src="./img/2b.webp" alt="Roses tee 2">
+                    </div>
+                    <div class="product-favorite-button position-absolute">&hearts;</div>
+                    <div class="product-labels d-flex position-absolute">
+                        <div class="product-discount-percentage">-30%</div>
+                        <div class="product-sustainability"></div>
+                    </div>
                 </div>
-
                 <!-- Product information -->
                 <div class="product-information">
-                    <div class="product-brand"></div>
+                    <div class="product-brand">Guess</div>
                     <div class="product-title">Roses tee</div>
-                    <div class="product-price product-price-discounted">20,99 €</div>
-                    <div class="product-price">29,99 €</div>
+                    <div class="product-prices d-flex">
+                        <div class="product-price-primary">20,99 €</div>
+                        <div class="product-price-secondary text-decoration-line-through">29,99 €</div>
+                    </div>
                 </div>
 
             </a>
@@ -113,19 +126,26 @@
             <a class="product-item col-4" href="#">
 
                 <!-- Product card -->
-                <div class="product-card">
-                    <img class="product-image" src="./img/3.webp" alt="">
-                    <div class="product-like-button"></div>
-                    <div class="product-discount">-30%</div>
-                    <div class="product-sustainability"></div>
+                <div class="product-card position-relative">
+                    <div class="product-images position-relative">
+                        <img class="product-image-primary" src="./img/3.webp" alt="Voglia di colori pastello 1">
+                        <img class="product-image-secondary position-absolute" src="./img/3b.webp"
+                            alt="Voglia di colori pastello 2">
+                    </div>
+                    <div class="product-favorite-button position-absolute">&hearts;</div>
+                    <div class="product-labels d-flex position-absolute">
+                        <div class="product-discount-percentage">-30%</div>
+                        <div class="product-sustainability"></div>
+                    </div>
                 </div>
-
                 <!-- Product information -->
                 <div class="product-information">
-                    <div class="product-brand"></div>
+                    <div class="product-brand">Come Zucchero Filato</div>
                     <div class="product-title">Voglia di colori pastello</div>
-                    <div class="product-price product-price-discounted">129,99 €</div>
-                    <div class="product-price">184,99 €</div>
+                    <div class="product-prices d-flex">
+                        <div class="product-price-primary">129,99 €</div>
+                        <div class="product-price-secondary text-decoration-line-through">184,99 €</div>
+                    </div>
                 </div>
 
             </a>
@@ -134,19 +154,25 @@
             <a class="product-item col-4" href="#">
 
                 <!-- Product card -->
-                <div class="product-card">
-                    <img class="product-image" src="./img/4.webp" alt="">
-                    <div class="product-like-button"></div>
-                    <div class="product-discount">-50%</div>
-                    <div class="product-sustainability">Sostenibilità</div>
+                <div class="product-card position-relative">
+                    <div class="product-images position-relative">
+                        <img class="product-image-primary" src="./img/4.webp" alt="Tee unisex 1">
+                        <img class="product-image-secondary position-absolute" src="./img/4b.webp" alt="Tee unisex 2">
+                    </div>
+                    <div class="product-favorite-button position-absolute">&hearts;</div>
+                    <div class="product-labels d-flex position-absolute">
+                        <div class="product-discount-percentage">-50%</div>
+                        <div class="product-sustainability">Sostenibilità</div>
+                    </div>
                 </div>
-
                 <!-- Product information -->
                 <div class="product-information">
-                    <div class="product-brand"></div>
+                    <div class="product-brand">Levi's</div>
                     <div class="product-title">Tee unisex</div>
-                    <div class="product-price product-price-discounted">14,99 €</div>
-                    <div class="product-price">29,99 €</div>
+                    <div class="product-prices d-flex">
+                        <div class="product-price-primary">14,99 €</div>
+                        <div class="product-price-secondary text-decoration-line-through">29,99 €</div>
+                    </div>
                 </div>
 
             </a>
@@ -155,18 +181,26 @@
             <a class="product-item col-4" href="#">
 
                 <!-- Product card -->
-                <div class="product-card">
-                    <img class="product-image" src="./img/5.webp" alt="">
-                    <div class="product-like-button"></div>
-                    <div class="product-discount"></div>
-                    <div class="product-sustainability"></div>
+                <div class="product-card position-relative">
+                    <div class="product-images position-relative">
+                        <img class="product-image-primary" src="./img/5.webp" alt="Stripe bodice 1">
+                        <img class="product-image-secondary position-absolute" src="./img/5b.webp"
+                            alt="Stripe bodice 2">
+                    </div>
+                    <div class="product-favorite-button position-absolute">&hearts;</div>
+                    <div class="product-labels d-flex position-absolute">
+                        <div class="product-discount-percentage"></div>
+                        <div class="product-sustainability"></div>
+                    </div>
                 </div>
-
                 <!-- Product information -->
                 <div class="product-information">
-                    <div class="product-brand"></div>
+                    <div class="product-brand">Maya Deluxe</div>
                     <div class="product-title">Stripe bodice</div>
-                    <div class="product-price">99,99 €</div>
+                    <div class="product-prices d-flex">
+                        <div class="product-price-primary">99,99 €</div>
+                        <div class="product-price-secondary text-decoration-line-through"></div>
+                    </div>
                 </div>
 
             </a>
@@ -175,18 +209,26 @@
             <a class="product-item col-4" href="#">
 
                 <!-- Product card -->
-                <div class="product-card">
-                    <img class="product-image" src="./img/6.webp" alt="">
-                    <div class="product-like-button"></div>
-                    <div class="product-discount"></div>
-                    <div class="product-sustainability">Sostenibilità</div>
+                <div class="product-card position-relative">
+                    <div class="product-images position-relative">
+                        <img class="product-image-primary" src="./img/6.webp" alt="Maglione - black 1">
+                        <img class="product-image-secondary position-absolute" src="./img/6b.webp"
+                            alt="Maglione - black 2">
+                    </div>
+                    <div class="product-favorite-button position-absolute">&hearts;</div>
+                    <div class="product-labels d-flex position-absolute">
+                        <div class="product-discount-percentage"></div>
+                        <div class="product-sustainability">Sostenibilità</div>
+                    </div>
                 </div>
-
                 <!-- Product information -->
                 <div class="product-information">
-                    <div class="product-brand"></div>
+                    <div class="product-brand">Esprit</div>
                     <div class="product-title">Maglione - black</div>
-                    <div class="product-price">29,99 €</div>
+                    <div class="product-prices d-flex">
+                        <div class="product-price-primary">29,99 €</div>
+                        <div class="product-price-secondary text-decoration-line-through"></div>
+                    </div>
                 </div>
 
             </a>
